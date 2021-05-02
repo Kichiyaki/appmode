@@ -1,9 +1,9 @@
-package gomode
+package appmode
 
 import "github.com/Kichiyaki/goutil/envutil"
 
 const (
-	EnvKey          = "GO_MODE"
+	EnvKey          = "APP_MODE"
 	DevelopmentMode = "development"
 	ProductionMode  = "production"
 	TestMode        = "test"

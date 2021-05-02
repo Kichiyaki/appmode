@@ -1,4 +1,4 @@
-module github.com/Kichiyaki/gomode
+module github.com/Kichiyaki/appmode
 
 go 1.16
 
