@@ -1,6 +1,8 @@
 package appmode
 
-import "github.com/Kichiyaki/goutil/envutil"
+import (
+	"os"
+)
 
 const (
 	EnvKey          = "APP_MODE"
@@ -12,7 +14,7 @@ const (
 var mode = DevelopmentMode
 
 func init() {
-	Set(envutil.GetenvString(EnvKey))
+	Set(os.Getenv(EnvKey))
 }
 
 func Set(value string) {
