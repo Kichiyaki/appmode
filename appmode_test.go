@@ -3,7 +3,8 @@ package appmode_test
 import (
 	"testing"
 
-	"github.com/Kichiyaki/appmode"
+	"github.com/Kichiyaki/appmode/v2"
+
 	"github.com/stretchr/testify/assert"
 )
 
